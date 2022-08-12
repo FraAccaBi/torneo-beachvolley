@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+
+@font-face {
+    font-family: "sayans";
+    src: url('../vendor/font/Saiyan-Sans.ttf') format("opentype");
+}
+
+*{
+    font-family: "sayans";
+}
+
+
+
+body {
+  background: url("../images/background.jpg") no-repeat #000;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  background-position-x: center;
+}
+.hero {
+  position:relative;
+  text-align: center;
+  overflow: hidden;
+  color: #fcfcfc;
+}
+.hero h1 {
+  font-weight: normal;
+  font-size: 5.4em;
+  margin:0 0 20px;
+  text-shadow:0 0 12px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;letter-spacing:-1px;
+}
+.hero p {
+  text-transform: uppercase;
+  color: #F85B1A;
+  letter-spacing: 6px;
+  text-shadow:0 0 12px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+}
+.hero-wrap {
+  padding: 3.5em 10px;
+}
+#headline{
+  color:#F85B1A
+}
+.hero p.year {
+  color: #000;
+  letter-spacing: 20px;
+  font-size: 34px;
+  margin: -25px 0 25px;
+}
+.hero p.year i {
+  font-size: 14px;
+  vertical-align: middle;
+}
+#bracket {
+  overflow:hidden;
+  background-color:rgba(225,225,225,0.6);
+  padding-top: 20px;
+  font-size: 12px;
+  padding: 40px 0;
+}
+.player {
+  border-bottom: 2px solid black;
+  font-size: 30px;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+.cell * {
+  margin: 0px;
+  padding: 0px;
+}
+.cell{
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .quarti .cell {
+    margin-top: 46%;
+  }
+  .quarti .cell:first-of-type {
+    margin-top: 25%;
+  }
+
+  .semi .cell {
+    margin-top: 132%;
+  }
+  .semi .cell:first-of-type {
+    margin-top: 65%;
+  }
+
+  .final .cell {
+    margin-top: 152%;
+  }
+}
+
+
+
